@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cabin', sans-serif;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  background-color: rgba(254,249,215,0.30);
+
+}
+header{
+  text-align: center;
+  padding: 20px;
+  padding-top: 10px;
+}
+header h1{
+  font-size: 50px;
+  padding-top: 20px;
+}
+header img{
+  width: 150px;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 70%;
+}
+nav a{
+  padding: 20px;
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+}
+.clicked{
+   background-color: rgba(255,240,200,1);
+}
+nav a:active{
+   background-color: rgba(255,240,200,1);
+  color: inherit;
+}
+main{
+  padding-top: 30px;
+}
+.news{
+  border-bottom: 2px solid black;
+  padding: 30px;
+  margin: 30px;
+}
+.news:hover{
+opacity: 0.6;
+}
+
+.pin{
+  border: 1px solid rgba(254,249,215,1);
+  float: left;
+  margin: 10px;
+  background-color: black;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: rgba(254,249,215,1);
+}
+.news-link{
+  text-decoration: none;
+  color: black;
+}
+.news-photo{
+
+ background-position: center;
+ background-size: cover;
+ width: 500px;
+ height: 300px;
+ border-radius: 10px;
+}
+
+.uno{
+   background-image: url("image/prima.jpg");
+}
+.due{
+     background-image: url("../image/seconda.jpg");
+}
+.tre{
+     background-image: url("image/terza.jpg");
+}
+.news-name h1{
+padding: 20px 0px 20px 0px;
+font-style: italic;
+font-family: 'Lora', serif;
+text-decoration: none;
+}
+.news-summary{
+  font-size: 15px;
+}
+.news-author{
+  padding-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.news-author-name h4{
+  font-style: italic;
+  font-family: 'Lora', serif;
+  font-size: 16px;
+}
+
+.news-author img{
+width: 60px;
+border-radius: 10px;
+margin-left: 10px;
+}

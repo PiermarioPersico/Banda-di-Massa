@@ -96,10 +96,11 @@ opacity: 0.6;
 padding: 20px 0px 20px 0px;
 font-style: italic;
 font-family: 'Lora', serif;
+font-size: 50px;
 text-decoration: none;
 }
 .news-summary{
-  font-size: 15px;
+  font-size: 25px;
 }
 .news-author{
   padding-top: 30px;

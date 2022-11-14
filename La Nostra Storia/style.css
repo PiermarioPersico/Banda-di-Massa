@@ -75,8 +75,8 @@ opacity: 0.6;
 
  background-position: center;
  background-size: cover;
- width: 700px;
- height: 500px;
+ width: 500px;
+ height: 300px;
  border-radius: 10px;
 }
 
@@ -84,13 +84,10 @@ opacity: 0.6;
    background-image: url("image/prima.jpg");
 }
 .due{
-     background-image: url("image/seconda.jpg");
+     background-image: url("../image/seconda.jpg");
 }
 .tre{
-     background-image: url("image/terza.jpg");
-}
-.quattro{
-     background-image: url("image/libretto.jpg");
+     background-image: url("../image/terza.jpg");
 }
 .news-name h1{
 padding: 20px 0px 20px 0px;
